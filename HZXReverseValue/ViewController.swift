@@ -17,7 +17,6 @@ import UIKit
         ///接受通知的方法
         NotificationCenter.default.addObserver(self, selector: #selector(noticeChangeTextAction(noti:)), name: NSNotification.Name(rawValue: "refreshFirstViewNewText"), object: nil)
         
-        
         let tempLabel = UILabel()
         tempLabel.frame = CGRect(x: self.view.bounds.width/2 - 200/2, y: 100, width: 200, height: 30)
         tempLabel.backgroundColor = UIColor.green
